@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    18:24:42 04/13/2021 
+-- Create Date:    13:47:46 04/21/2021 
 -- Design Name: 
--- Module Name:    mult_5B_S - mult_5B_S_op 
+-- Module Name:    mult_5B_mem - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -20,15 +20,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity mult_5B_S is
+entity mult_5B_mem is
 	port (
 			in_5B : in STD_LOGIC_VECTOR (7 downto 0);
 			out_5B : out STD_LOGIC_VECTOR (7 downto 0)
 			);
-end mult_5B_S;
+end mult_5B_mem;
 
-architecture mult_5B_S_op of mult_5B_S is
-
+architecture mult_5B_mem of mult_5B_mem is
 begin
 
 	with in_5B select
@@ -97,5 +96,4 @@ begin
 					"11000110" when "11111000", "10011101" when "11111001", "01110000" when "11111010", "00101011" when "11111011",
 					"11000011" when "11111100", "10011000" when "11111101", "01110101" when "11111110", "00101110" when "11111111";
 
-end mult_5B_S_op;
-
+end mult_5B_mem;
