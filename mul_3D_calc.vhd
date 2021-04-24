@@ -31,14 +31,14 @@ architecture mul_3D_calc of mul_3D_calc is
 
 begin
 	
-		out_1E(7) <= in_1E(3) XOR in_1E(2);
-		out_1E(6) <= in_1E(2) XOR in_1E(1);
-		out_1E(5) <= in_1E(7) XOR in_1E(3) XOR in_1E(2) XOR in_1E(1) XOR in_1E(0);
-		out_1E(4) <= in_1E(7) XOR in_1E(6) XOR in_1E(2) XOR in_1E(1) XOR in_1E(0);
-		out_1E(3) <= in_1E(7) XOR in_1E(6) XOR in_1E(5) XOR in_1E(1) XOR in_1E(0);
-		out_1E(2) <= in_1E(6) XOR in_1E(5) XOR in_1E(4) XOR in_1E(3) XOR in_1E(2) XOR in_1E(0);
-		out_1E(1) <= in_1E(5) XOR in_1E(4) XOR in_1E(1);
-		out_1E(0) <= in_1E(4) XOR in_1E(3) XOR in_1E(0);
+		out_3D(7) <= in_3D(3) XOR in_3D(2);
+		out_3D(6) <= in_3D(2) XOR in_3D(1);
+		out_3D(5) <= in_3D(7) XOR in_3D(3) XOR in_3D(2) XOR in_3D(1) XOR in_3D(0);
+		out_3D(4) <= in_3D(7) XOR in_3D(6) XOR in_3D(2) XOR in_3D(1) XOR in_3D(0);
+		out_3D(3) <= in_3D(7) XOR in_3D(6) XOR in_3D(5) XOR in_3D(1) XOR in_3D(0);
+		out_3D(2) <= in_3D(6) XOR in_3D(5) XOR in_3D(4) XOR in_3D(3) XOR in_3D(2) XOR in_3D(0);
+		out_3D(1) <= in_3D(5) XOR in_3D(4) XOR in_3D(1);
+		out_3D(0) <= in_3D(4) XOR in_3D(3) XOR in_3D(0);
 
 end mul_3D_calc;
 
