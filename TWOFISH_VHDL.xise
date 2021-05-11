@@ -239,9 +239,17 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="57"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="57"/>
     </file>
-    <file xil_pn:name="RS_mem.vhd" xil_pn:type="FILE_VHDL">
+    <file xil_pn:name="RS128_mem.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="58"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="58"/>
+    </file>
+    <file xil_pn:name="RS128_calc.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="59"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="59"/>
+    </file>
+    <file xil_pn:name="mul_01.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="60"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="60"/>
     </file>
   </files>
 
@@ -443,6 +451,7 @@
     <property xil_pn:name="Preferred Language" xil_pn:value="VHDL" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Produce Verbose Report" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Project Description" xil_pn:value="VHDL implementation of the Twofish encryption algorithm, by Rafael Martin" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Project Generator" xil_pn:value="ProjNav" xil_pn:valueState="default"/>
     <property xil_pn:name="Property Specification in Project File" xil_pn:value="Store all values" xil_pn:valueState="default"/>
     <property xil_pn:name="RAM Extraction" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="RAM Style" xil_pn:value="Auto" xil_pn:valueState="default"/>
