@@ -23,7 +23,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity RS128_mem is
 	port (
 			in_rs128 : in std_logic_vector(127 downto 0);
-			out_S1_rs128, out_S2_rs128 : out std_logic_vector(31 downto 0)
+			out_S0_rs128, out_S1_rs128 : out std_logic_vector(31 downto 0)
 			);
 end RS128_mem;
 
@@ -92,7 +92,7 @@ architecture RS128_mem of RS128_mem is
 	component mul_55_mem
 		port (
 				in_55 : in std_logic_vector(7 downto 0);
-				out_5 : out std_logic_vector(7 downto 0)
+				out_55 : out std_logic_vector(7 downto 0)
 				);
 	end component;
 		
@@ -269,8 +269,8 @@ begin
 		-- Con la primera fila se calcula s00
 		m0_x_01: mul_01
 		port map	(
-					in_01 => m1,
-					out_01 => m1_01
+					in_01 => m0,
+					out_01 => m0_01
 					);
 	 
 		m1_x_A4: mul_A4_mem

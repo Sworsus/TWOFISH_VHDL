@@ -1,0 +1,6 @@
+vhdl work "mult_EF_calc.vhd"
+vhdl work "mult_5B_calc.vhd"
+vhdl work "q1.vhd"
+vhdl work "q0.vhd"
+vhdl work "MDS_calc.vhd"
+vhdl work "H_calc.vhd"

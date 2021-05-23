@@ -7,20 +7,29 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/G_calc - G_calc C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|G_calc.vhd</ClosedNode>
+         <ClosedNode>/G_calc - G_calc C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|G_calc.vhd/mult_mds - MDS_calc - MDS_calc</ClosedNode>
+         <ClosedNode>/G_mem - G_mem C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|G_mem.vhd</ClosedNode>
+         <ClosedNode>/H_calc - H_calc C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|H_calc.vhd</ClosedNode>
+         <ClosedNode>/H_calc - H_calc C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|H_calc.vhd/mult_mds - MDS_calc - MDS_calc</ClosedNode>
+         <ClosedNode>/H_mem - H_mem C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|H_mem.vhd</ClosedNode>
          <ClosedNode>/MDS - MDS_Calc C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|MDS.vhd</ClosedNode>
          <ClosedNode>/MDS_ROM - Behavioral C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|MDS_ROM.vhd</ClosedNode>
          <ClosedNode>/MDS_ROM - MDS C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|MDS_ROM.vhd</ClosedNode>
          <ClosedNode>/MDS_calc - MDS_calc C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|MDS_calc.vhd</ClosedNode>
          <ClosedNode>/MDS_mem - MDS_mem C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|MDS_mem.vhd</ClosedNode>
+         <ClosedNode>/PHT - PHT C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|PHT.vhd</ClosedNode>
          <ClosedNode>/RS128_calc - RS128_calc C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|RS128_calc.vhd</ClosedNode>
          <ClosedNode>/RS128_mem - RS128_mem C:|Users|Rafa|Desktop|TFG|TWOFISH_VHDL|RS128_mem.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>PHT - PHT (C:/Users/Rafa/Desktop/TFG/TWOFISH_VHDL/PHT.vhd)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000137000000020000000000000000000000000200000064ffffffff000000810000000300000002000001370000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>RS128_calc - RS128_calc (C:/Users/Rafa/Desktop/TFG/TWOFISH_VHDL/RS128_calc.vhd)</CurrentItem>
+      <CurrentItem>PHT - PHT (C:/Users/Rafa/Desktop/TFG/TWOFISH_VHDL/PHT.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -41,7 +50,7 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >36</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >37</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>

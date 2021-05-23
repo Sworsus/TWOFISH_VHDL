@@ -21,8 +21,40 @@
 
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="TWOFISH_VHDL.xise"/>
 
-  <files xmlns="http://www.xilinx.com/XMLSchema"/>
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="F_v1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="F_v1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="F_v1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="G_mem.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="G_mem.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="G_mem.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="H_calc.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="H_calc.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="H_calc.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="H_mem.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="H_mem.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="H_mem.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Input_R_M.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Input_R_M.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Input_R_M.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Output_R_M.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Output_R_M.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Output_R_M.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS128_calc.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="RS128_calc.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="RS128_calc.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS128_mem.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="RS128_mem.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="RS128_mem.xst"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
 
-  <transforms xmlns="http://www.xilinx.com/XMLSchema"/>
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1621773742" xil_pn:name="TRANEXT_compLibraries2_virtex5" xil_pn:prop_ck="5438683702708918982" xil_pn:start_ts="1621773742">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
 
 </generated_project>

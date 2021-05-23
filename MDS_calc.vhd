@@ -23,7 +23,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity MDS_calc is
 	port (
 		y0, y1, y2, y3 : in STD_LOGIC_VECTOR(7 downto 0);
-		z0, z1, z2, z3 : in STD_LOGIC_VECTOR(7 downto 0)
+		z0, z1, z2, z3 : out STD_LOGIC_VECTOR(7 downto 0)
 		);	
 end MDS_calc;
 
@@ -111,6 +111,6 @@ begin
 	--Z3 = y0*EF + y1*01 + y2*EF + y3*5B
 	z3 <= y0_EF XOR y1 XOR y2_EF XOR y3_5B;
 
-end MDS_caalc;
+end MDS_calc;
 
 

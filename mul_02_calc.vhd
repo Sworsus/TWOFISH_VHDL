@@ -32,11 +32,11 @@ architecture mul_02_calc of mul_02_calc is
 begin
 
 	out_02(7) <= in_02(6);
-	out_02(6) <= in_02(7) XOR in_mul02(5);
+	out_02(6) <= in_02(7) XOR in_02(5);
 	out_02(5) <= in_02(4);
 	out_02(4) <= in_02(3);
-	out_02(3) <= in_02(7) XOR in_mul02(2);
-	out_02(2) <= in_02(7) XOR in_mul02(1);
+	out_02(3) <= in_02(7) XOR in_02(2);
+	out_02(2) <= in_02(7) XOR in_02(1);
 	out_02(1) <= in_02(0);
 	out_02(0) <= in_02(7);
 

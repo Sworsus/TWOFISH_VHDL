@@ -23,7 +23,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity MDS_mem is
 	port (
 		y0, y1, y2, y3 : in STD_LOGIC_VECTOR(7 downto 0);
-		z0, z1, z2, z3 : in STD_LOGIC_VECTOR(7 downto 0)
+		z0, z1, z2, z3 : out STD_LOGIC_VECTOR(7 downto 0)
 		);	
 end MDS_mem;
 
