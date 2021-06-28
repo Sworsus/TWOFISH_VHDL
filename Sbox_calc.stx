@@ -1,0 +1,132 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Rafa/Desktop/TFG/TWOFISH_VHDL/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Rafa/Desktop/TFG/TWOFISH_VHDL/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Reading design: Sbox_calc.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_FC_calc.vhd" into library work
+Parsing entity <mul_FC_calc>.
+Parsing architecture <mul_FC_calc> of entity <mul_fc_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_F3_calc.vhd" into library work
+Parsing entity <mul_F3_calc>.
+Parsing architecture <mul_F3_calc> of entity <mul_f3_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_E5_calc.vhd" into library work
+Parsing entity <mul_E5_calc>.
+Parsing architecture <mul_E5_calc> of entity <mul_e5_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_DB_calc.vhd" into library work
+Parsing entity <mul_DB_calc>.
+Parsing architecture <mul_DB_calc> of entity <mul_db_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_C6_calc.vhd" into library work
+Parsing entity <mul_C6_calc>.
+Parsing architecture <mul_C6_calc> of entity <mul_c6_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_C1_calc.vhd" into library work
+Parsing entity <mul_C1_calc>.
+Parsing architecture <mul_C1_calc> of entity <mul_c1_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_AE_calc.vhd" into library work
+Parsing entity <mul_AE_calc>.
+Parsing architecture <mul_AE_calc> of entity <mul_ae_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_A4_calc.vhd" into library work
+Parsing entity <mul_A4_calc>.
+Parsing architecture <mul_A4_calc> of entity <mul_a4_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_A1_calc.vhd" into library work
+Parsing entity <mul_A1_calc>.
+Parsing architecture <mul_A1_calc> of entity <mul_a1_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_9E_calc.vhd" into library work
+Parsing entity <mul_9E_calc>.
+Parsing architecture <mul_9E_calc> of entity <mul_9e_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_87_calc.vhd" into library work
+Parsing entity <mul_87_calc>.
+Parsing architecture <mul_87_calc> of entity <mul_87_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_82_calc.vhd" into library work
+Parsing entity <mul_82_calc>.
+Parsing architecture <mul_82_calc> of entity <mul_82_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_68_calc.vhd" into library work
+Parsing entity <mul_68_calc>.
+Parsing architecture <mul_68_calc> of entity <mul_68_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_5A_calc.vhd" into library work
+Parsing entity <mul_5A_calc>.
+Parsing architecture <mul_5A_calc> of entity <mul_5a_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_58_calc.vhd" into library work
+Parsing entity <mul_58_calc>.
+Parsing architecture <mul_58_calc> of entity <mul_58_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_56_calc.vhd" into library work
+Parsing entity <mul_56_calc>.
+Parsing architecture <mul_56_calc> of entity <mul_56_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_55_calc.vhd" into library work
+Parsing entity <mul_55_calc>.
+Parsing architecture <mul_55_calc> of entity <mul_55_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_47_calc.vhd" into library work
+Parsing entity <mul_47_calc>.
+Parsing architecture <mul_47_calc> of entity <mul_47_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_3D_calc.vhd" into library work
+Parsing entity <mul_3D_calc>.
+Parsing architecture <mul_3D_calc> of entity <mul_3d_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_1E_calc.vhd" into library work
+Parsing entity <mul_1E_calc>.
+Parsing architecture <mul_1E_calc> of entity <mul_1e_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_19_calc.vhd" into library work
+Parsing entity <mul_19_calc>.
+Parsing architecture <mul_19_calc> of entity <mul_19_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_03_calc.vhd" into library work
+Parsing entity <mul_03_calc>.
+Parsing architecture <mul_03_calc> of entity <mul_03_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_02_calc.vhd" into library work
+Parsing entity <mul_02_calc>.
+Parsing architecture <mul_02_calc> of entity <mul_02_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_01.vhd" into library work
+Parsing entity <mul_01>.
+Parsing architecture <mul_01> of entity <mul_01>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\RS128_calc.vhd" into library work
+Parsing entity <RS128_calc>.
+Parsing architecture <RS128_calc> of entity <rs128_calc>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\Sbox_calc.vhd" into library work
+Parsing entity <Sbox_calc>.
+Parsing architecture <Sbox_calc_arch> of entity <sbox_calc>.
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 9.32 secs
+ 
+--> 
+
+Total memory usage is 4494748 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

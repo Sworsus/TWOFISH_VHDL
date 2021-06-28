@@ -46,6 +46,21 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RS128_mem.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="RS128_mem.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="RS128_mem.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Ronda_Encriptado_v2.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Ronda_Encriptado_v2.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Ronda_Encriptado_v2.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sbox_calc.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sbox_calc.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Sbox_calc.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sbox_mem.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sbox_mem.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Sbox_mem.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="White_KeySched_v1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="White_KeySched_v1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="White_KeySched_v1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="White_KeySched_v2.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="White_KeySched_v2.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="White_KeySched_v2.xst"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>

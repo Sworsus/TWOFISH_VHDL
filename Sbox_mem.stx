@@ -1,0 +1,132 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Rafa/Desktop/TFG/TWOFISH_VHDL/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Rafa/Desktop/TFG/TWOFISH_VHDL/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: Sbox_mem.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_FC_mem.vhd" into library work
+Parsing entity <mul_FC_mem>.
+Parsing architecture <mul_FC_mem> of entity <mul_fc_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_F3_mem.vhd" into library work
+Parsing entity <mul_F3_mem>.
+Parsing architecture <mul_F3_mem> of entity <mul_f3_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_E5_mem.vhd" into library work
+Parsing entity <mul_E5_mem>.
+Parsing architecture <mul_E5_mem> of entity <mul_e5_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_DB_mem.vhd" into library work
+Parsing entity <mul_DB_mem>.
+Parsing architecture <mul_DB_mem> of entity <mul_db_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_C6_mem.vhd" into library work
+Parsing entity <mul_C6_mem>.
+Parsing architecture <mul_C6_mem> of entity <mul_c6_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_C1_mem.vhd" into library work
+Parsing entity <mul_C1_mem>.
+Parsing architecture <mul_C1_mem> of entity <mul_c1_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_AE_mem.vhd" into library work
+Parsing entity <mul_AE_mem>.
+Parsing architecture <mul_AE_mem> of entity <mul_ae_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_A4_mem.vhd" into library work
+Parsing entity <mul_A4_mem>.
+Parsing architecture <mul_A4_mem> of entity <mul_a4_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_A1_mem.vhd" into library work
+Parsing entity <mul_A1_mem>.
+Parsing architecture <mul_A1_mem> of entity <mul_a1_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_9E_mem.vhd" into library work
+Parsing entity <mul_9E_mem>.
+Parsing architecture <mul_9E_mem> of entity <mul_9e_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_87_mem.vhd" into library work
+Parsing entity <mul_87_mem>.
+Parsing architecture <mul_87_mem> of entity <mul_87_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_82_mem.vhd" into library work
+Parsing entity <mul_82_mem>.
+Parsing architecture <mul_82_mem> of entity <mul_82_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_68_mem.vhd" into library work
+Parsing entity <mul_68_mem>.
+Parsing architecture <mul_68_mem> of entity <mul_68_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_5A_mem.vhd" into library work
+Parsing entity <mul_5A_mem>.
+Parsing architecture <mul_5A_mem> of entity <mul_5a_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_58_mem.vhd" into library work
+Parsing entity <mul_58_mem>.
+Parsing architecture <mul_58_mem> of entity <mul_58_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_56_mem.vhd" into library work
+Parsing entity <mul_56_mem>.
+Parsing architecture <mul_56_mem> of entity <mul_56_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_55_mem.vhd" into library work
+Parsing entity <mul_55_mem>.
+Parsing architecture <mul_55_mem> of entity <mul_55_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_47_mem.vhd" into library work
+Parsing entity <mul_47_mem>.
+Parsing architecture <mul_47_mem> of entity <mul_47_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_3D_mem.vhd" into library work
+Parsing entity <mul_3D_mem>.
+Parsing architecture <mul_3D_mem> of entity <mul_3d_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_1E_mem.vhd" into library work
+Parsing entity <mul_1E_mem>.
+Parsing architecture <mul_1E_mem> of entity <mul_1e_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_19_mem.vhd" into library work
+Parsing entity <mul_19_mem>.
+Parsing architecture <mul_19_mem> of entity <mul_19_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_03_mem.vhd" into library work
+Parsing entity <mul_03_mem>.
+Parsing architecture <mul_03_mem> of entity <mul_03_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_02_mem.vhd" into library work
+Parsing entity <mul_02_mem>.
+Parsing architecture <mul_02_mem> of entity <mul_02_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\mul_01.vhd" into library work
+Parsing entity <mul_01>.
+Parsing architecture <mul_01> of entity <mul_01>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\RS128_mem.vhd" into library work
+Parsing entity <RS128_mem>.
+Parsing architecture <RS128_mem> of entity <rs128_mem>.
+Parsing VHDL file "C:\Users\Rafa\Desktop\TFG\TWOFISH_VHDL\Sbox_mem.vhd" into library work
+Parsing entity <Sbox_mem>.
+Parsing architecture <Sbox_mem_arch> of entity <sbox_mem>.
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.80 secs
+ 
+--> 
+
+Total memory usage is 4494748 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
